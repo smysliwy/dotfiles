@@ -49,7 +49,8 @@
 
 	" Markup
 		inoremap <leader>< <esc>I<<esc>A><esc>yypa/<esc>O<tab>
-
+	" Python 
+		so ~/dotfiles/vim/plugins/config.vim
 
 " File and Window Management 
 	inoremap <leader>w <Esc>:w<CR>
